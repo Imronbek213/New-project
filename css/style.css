@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2B2B2B;
+}
+.container header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  justify-content: space-between;
+}
+.container header nav .a1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.container header nav .a1 i {
+  font-size: 1.6rem;
+  color: #A259FF;
+}
+.container header nav .a1 h1 {
+  color: white;
+}
+.container header nav .a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.container header nav .a a {
+  color: white;
+}
+.container header nav .a .div i {
+  position: relative;
+  position: absolute;
+  z-index: 2px;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.container header nav .a .div button {
+  text-align: center;
+  padding: 15px 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #A259FF;
+  color: white;
+}
+.container header section {
+  display: flex;
+  padding: 0px 115px;
+  gap: 30px;
+}
+.container header section .suz1 {
+  width: 480px;
+  height: 544px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container header section .suz1 h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.container header section .suz1 p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+.container header section .suz1 button {
+  width: 224px;
+  height: 60px;
+  background-color: #A259FF;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.container header section .suz1 .cards {
+  display: flex;
+  gap: 20px;
+}
+.container header section .suz1 .cards .card p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+.container header section .suz1 .cards .card h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.container header section .suz2 {
+  width: 510px;
+  height: 510px;
+  color: white;
+}
+.container header section .suz2 img {
+  width: 100%;
+}
+.container header section .suz2 h2 {
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.container header section .suz2 span {
+  padding-left: 50px;
+}
+.container main {
+  width: 100%;
+  min-height: 100%;
+}
+.container main .gd {
+  margin-top: 70px;
+  margin-left: 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.container main .gd h1 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+}
+.container main .gd p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+}
+.container main nav {
+  width: 100%;
+  display: flex;
+  padding: 0px 115px;
+}
+.container main nav .cards {
+  gap: 35px;
+  width: 100%;
+  display: flex;
+}
+.container main nav .cards .card .img2 {
+  display: flex;
+  gap: 15px;
+}
+.container main section {
+  width: 100%;
+  margin-top: 100px;
+}
+.container main section .gk h1 {
+  color: white;
+  margin-left: 130px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  padding-bottom: 40px;
+}
+.container main section .cards {
+  width: 100%;
+  padding: 0px 130px;
+}
+.container main section .cards .card1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 30px;
+}
+.container main section .cards .card1 .card {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 10px;
+}
+.container main section .cards .card1 .card h3 {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.container main section .cards .card2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.container main section .cards .card2 .card {
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 10px;
+}
+.container main section .cards .card2 .card h3 {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.container footer .gd {
+  margin-left: 130px;
+  color: white;
+}
+.container footer .gd h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.container footer .gd span {
+  margin-bottom: 30px;
+}
+.container footer .cards {
+  display: flex;
+  padding: 0px 130px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.container footer .cards .card {
+  width: 330px;
+  height: 439px;
+  text-align: center;
+  background-color: #3B3B3B;
+  border-radius: 10px;
+  padding: 0px 30px 30px 30px;
+  color: #FFFFFF;
+}
+.container footer .cards .card h1 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.container footer .cards .card p {
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 16px;
+  padding-top: 20px;
+}/*# sourceMappingURL=style.css.map */
