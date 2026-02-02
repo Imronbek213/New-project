@@ -591,4 +591,46 @@ body {
   width: 1110px;
   height: 40px;
   border-top: 1px solid grey;
+}
+@media (max-width: 480px) {
+  .container header nav .a {
+    display: none;
+  }
+  .container header section {
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+    width: 315px;
+    text-align: justify;
+  }
+  .container header section .suz1 {
+    width: 420px;
+  }
+  .container header section .suz1 button {
+    margin-top: 500px;
+    padding: 35px 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container header section .suz2 {
+    margin-top: -220px;
+    width: 423px;
+    margin-bottom: 150px;
+  }
+  .container header section .cards {
+    padding: 0px 40px;
+  }
+  .container main .gd {
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+  .container main nav {
+    padding: 0px 75px;
+  }
+  .container main nav .cards {
+    flex-direction: column;
+    gap: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */
