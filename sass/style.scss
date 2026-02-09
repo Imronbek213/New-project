@@ -1,20 +1,18 @@
 @import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
 
-body {
-    font-family: 'Work Sans', sans-serif;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
     width: 100%;
     min-height: 100vh;
     background-color: #2B2B2B;
+    border:5px solid red;
 
     header {
         nav {
@@ -202,6 +200,10 @@ body {
             flex-direction: column;
             gap: 30px;
 
+            button {
+                display: none;
+            }
+
             .card1 {
                 display: flex;
                 justify-content: space-between;
@@ -322,49 +324,72 @@ body {
                 }
             }
 
-            .cards {
+            .red {
                 width: 100%;
-                padding: 0px 130px;
+                padding: 0px 115px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
 
-                .card1 {
-                    display: flex;
-                    justify-content: space-between;
-                    color: white;
-                    margin-bottom: 30px;
+                .red100 {
+                    .red3 {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 30px;
 
-                    .card {
-                        width: 240px;
-                        height: 316px;
-                        background-color: #3B3B3B;
-                        border-radius: 10px;
+                        .card100 {
+                            width: 240px;
+                            height: 316px;
+                            background-color: #3B3B3B;
+                            border-radius: 20px;
 
-                        h3 {
-                            padding-left: 30px;
-                            padding-top: 15px;
-                            font-weight: 600;
-                            font-size: 22px;
-                            line-height: 140%;
+                            .suz {
+                                padding-left: 30px;
+                                padding-top: 15px;
+
+                                h1 {
+                                    font-weight: 600;
+                                    font-size: 22px;
+                                    line-height: 140%;
+                                    color: white;
+                                }
+                            }
+
+                            .img {
+                                img {
+                                    width: 100%;
+                                }
+                            }
                         }
                     }
-                }
 
-                .card2 {
-                    display: flex;
-                    justify-content: space-between;
-                    color: white;
+                    .red2 {
+                        display: flex;
+                        justify-content: space-between;
 
-                    .card {
-                        width: 240px;
-                        height: 316px;
-                        background-color: #3B3B3B;
-                        border-radius: 10px;
+                        .card100 {
+                            width: 240px;
+                            height: 316px;
+                            background-color: #3B3B3B;
+                            border-radius: 20px;
 
-                        h3 {
-                            padding-left: 30px;
-                            padding-top: 15px;
-                            font-weight: 600;
-                            font-size: 22px;
-                            line-height: 140%;
+                            .suz {
+                                padding-left: 30px;
+                                padding-top: 15px;
+
+                                h1 {
+                                    font-weight: 600;
+                                    font-size: 22px;
+                                    line-height: 140%;
+                                    color: white;
+                                }
+                            }
+
+                            .img {
+                                img {
+                                    width: 100%;
+                                }
+                            }
                         }
                     }
                 }
@@ -461,6 +486,10 @@ body {
                     }
                 }
             }
+        }
+
+        .button {
+            display: none;
         }
 
         .img20 {
@@ -769,6 +798,337 @@ body {
                 .cards {
                     flex-direction: column;
                     gap: 70px;
+                }
+            }
+
+            .sis {
+                .sis1 {
+                    width: 500px;
+                    padding: 0px 30px;
+
+                    .suz2 {
+                        display: none;
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    #big {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        align-items: center;
+                        justify-content: center;
+
+                        .card {
+                            width: 315px;
+                            height: 100px;
+                            display: flex;
+                            flex-direction: row;
+                            gap: 20px;
+                            text-align: justify;
+
+                            .suz {
+                                img {
+                                    width: 60px;
+                                    height: 60px;
+                                }
+                            }
+                        }
+                    }
+
+                    #card1 {
+                        display: none;
+                    }
+
+                    button {
+                        display: flex;
+                        width: 315px;
+                        height: 60px;
+                        border: 2px solid #A259FF;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 20px;
+                        background-color: transparent;
+                        color: white;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 140%;
+                    }
+                }
+            }
+
+            section {
+                .gk {
+                    h1 {
+                        margin-left: 40px;
+                    }
+                }
+
+                .red {
+                    width: 100%;
+                    padding: 0px 60px;
+
+                    .red100 {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .red3 {
+                            flex-direction: column;
+                            margin-bottom: 0px;
+
+                            .card100 {
+                                width: 147.5px;
+                                height: 209px;
+
+                                .suz {
+                                    padding-top: 20px;
+                                    padding-left: 20px;
+
+                                    h1 {
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                        line-height: 140%;
+                                        color: white;
+                                    }
+                                }
+
+                                .img {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+
+                        .red2 {
+                            flex-direction: column;
+                            gap: 30px;
+
+                            .card100 {
+                                width: 147.5px;
+                                height: 209px;
+
+                                .suz {
+                                    padding-top: 20px;
+                                    padding-left: 20px;
+
+                                    h1 {
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                        line-height: 140%;
+                                        color: white;
+                                    }
+                                }
+
+                                .img {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            .gh {
+                padding: 0px 55px;
+                margin-bottom: 50px;
+
+                .suz2 {
+                    display: none;
+                }
+            }
+
+            .cards10 {
+                gap: 20px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .button {
+                display: flex;
+
+                button {
+                    width: 315px;
+                    height: 60px;
+                    border: 2px solid #A259FF;
+                    background-color: transparent;
+                    border-radius: 20px;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+
+            .gd {
+                margin-left: 80px;
+            }
+
+            .cards {
+                padding: 0px 30px;
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+
+                .card {
+                    width: 315px;
+                    height: 157px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 15px 0px 15px;
+
+                    .suz {
+                        display: flex;
+                        gap: 15px;
+
+                        .img {
+                            img {
+                                width: 100px;
+                                height: 100px;
+                            }
+                        }
+
+                        .suz2 {
+                            width: 155px;
+                            height: 117px;
+                            text-align: justify;
+
+                            h1 {
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 140%;
+                                color: white;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 140%;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .kel {
+                width: 100%;
+                height: 300px;
+                padding: 40px 30px;
+                background-color: #2B2B2B;
+                margin-bottom: 400px;
+
+                .kel2 {
+                    flex-direction: column;
+                    width: 375px;
+                    height: 645px;
+                    background-color: #2B2B2B;
+                    text-align: justify;
+                    gap: 20px;
+                    margin: 0 auto;
+
+                    .card {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .card2 {
+                        h1 {
+                            font-weight: 600;
+                            font-size: 28px;
+                            line-height: 140%;
+                            color: white;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 140%;
+                            color: white;
+                        }
+
+                        .input {
+                            width: 100%;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 20px;
+
+                            input {
+                                width: 100%;
+                                border-radius: 20px 20px 20px 20px;
+                            }
+
+                            button {
+                                width: 100%;
+                                position: relative;
+                                left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .fut {
+                width: 100%;
+                height:800px;
+                padding: 40px 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap:80px;
+                background-color: #3B3B3B;
+
+                .cards {
+                    width: 315px;
+                    height: 633px;
+                    background-color:#3B3B3B;
+                    text-align: justify;
+
+                    .card {
+                        width: 315px;
+                        height: 185px;
+                        text-align: center;
+                        .input2{
+                            flex-direction: column;
+                            gap:10px;
+                            input{
+                                width: 100%;
+                                border-radius:20px 20px;
+                            }
+                            button{
+                                width: 100%;
+                                position: relative;
+                                left:0px;
+                            }
+                        }
+                    }
+                }
+
+                .suz {
+                    width:450px;
+                    text-align: center;
+                    position: relative;
+                    z-index:2px;
+
+                    p {
+                        width:400px;
+                        border-top: 1px solid grey;
+                        margin-left: -90px;
+                    }
                 }
             }
         }
